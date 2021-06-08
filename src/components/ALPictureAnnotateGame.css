@@ -1,0 +1,39 @@
+* {
+  box-sizing: content-box;
+}
+/* 
+.phone-reflector-box {
+  border: 1px solid pink;
+} */
+
+.phone {
+  border: 3px solid lightgray;
+  border-radius: 15px;
+  position: relative;
+  padding-top: 50px;
+  margin-left: auto;
+}
+.phone-image-1 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  margin-top: 10px;
+}
+
+.game-box {
+  margin-left: auto;
+}
+
+.reflect-div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position-y: center; */
+  position: relative;
+}
+
+.reflect-interact-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}

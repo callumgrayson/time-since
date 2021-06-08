@@ -1,11 +1,11 @@
-import './App.css';
+import ViewController from "./components/ViewController"
 
 function App() {
   return (
     <div className="App">
-      Time Since
+      <ViewController />
     </div>
-  );
+  )
 }
 
 export default App;

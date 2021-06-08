@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.anno-container {
+  display: flex;
+}
+
+.anno-row {
+  display: flex;
+}
+
+.image-no-show {
+  opacity: 0;
+  position: absolute;
+}
+
+.image-div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.base-image-div {
+  border: 1px solid gold;
+}
+
+.annotation-div {
+  border: 1px solid plum;
+}
